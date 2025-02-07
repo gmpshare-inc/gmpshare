@@ -10,9 +10,15 @@ const Navbar: Component = () => {
           <img src={logo} alt="gmpshare logo" class='w-28 h-auto' />
         </a>
         <div class='flex flex-row gap-6 items-center'>
-          <div class='cursor-pointer'>About</div>
-          <div class='cursor-pointer'>IPOs</div>
-          <div class='cursor-pointer'>Features</div>
+          <a href="/about">
+            <div class='cursor-pointer'>About</div>
+          </a>
+          <a href="/ipos">
+            <div class='cursor-pointer'>IPOs</div>
+          </a>
+          <a href="/features">
+            <div class='cursor-pointer'>Features</div>
+          </a>
           <div class='transition-all cursor-pointer px-4 py-1 rounded bg-[#1967d2] hover:bg-[#fff] text-white hover:text-[#1967d2] border border-[#1967d2] font-normal'>Reach Us</div>
         </div>
       </div>
