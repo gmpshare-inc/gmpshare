@@ -4,7 +4,7 @@ import Footer from '../common/Footer/Footer';
 
 export const Home: Component = () => {
     return (
-        <>
+        <div>
             <Navbar />
             <div class="flex flex-col w-full min-h-screen items-center justify-center">
 
@@ -68,6 +68,6 @@ export const Home: Component = () => {
                 </main>
             </div>
             <Footer />
-        </>
+        </div>
     )
 }
