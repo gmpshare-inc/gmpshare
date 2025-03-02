@@ -36,54 +36,115 @@ export const Home: Component = () => {
 
                         {/* what is gmp section */}
                         <div class='flex flex-col gap-4 text-md mb-8'>
-                            <h1 class='text-xl font-bold'>What is GMP (Grey Market Premium)? A Complete Guide for IPO Investors</h1>
 
-                            <div>GMP (Grey Market Premium) is an important metric for investors looking to gauge the potential
-                                success of an Initial Public Offering (IPO) before its official listing. The grey market allows
-                                traders to buy and sell IPO shares unofficially, giving an early insight into investor sentiment.</div>
-
-                            <div>Understanding IPO GMP can be beneficial for making informed decisions about potential IPO
-                                investments. Higher GMP typically signals strong demand for the IPO, while a lower GMP may
-                                indicate weaker market confidence.
+                            <h1 class='text-xl font-bold'>About Us - GMPSHARE: Your Trusted Source for IPO Insights</h1>
+                            <div class='md:text-lg text-base font-normal leading-loose'>Welcome to <strong>GMPSHARE</strong>, your go-to platform for real-time IPO data, expert analysis, and
+                                in-depth information about the Grey Market Premium (GMP) and stock brokers. Whether
+                                you're a retail investor or an institutional investor, we provide the tools and knowledge you need
+                                to make informed decisions in the ever-evolving world of Initial Public Offerings (IPOs) and
+                                stock trading.
                             </div>
-                        </div>
 
-                        {/* what is ipo section */}
-                        <div class='flex flex-col gap-4 text-md mb-8'>
-                            <div class='text-xl font-bold'>What is an IPO (Initial Public Offering)?</div>
+                            <hr />
 
-                            <div>An IPO (Initial Public Offering) is the process by which a private company offers its shares to
-                                the public for the first time, becoming a publicly traded company. This allows the company to
-                                raise capital for expansion and provides an opportunity for investors to acquire shares in a
-                                growing business.</div>
-
-                            <div class='text-lg font-bold'>Key Points to Consider Before Investing in IPOs:</div>
-
-                            <div class='flex flex-col gap-1'>
-                                <div>
-                                    <span class='font-bold'>Company Fundamentals: </span>
-                                    <span>Financial health, growth potential, and the business model.</span>
-                                </div>
-                                <div>
-                                    <span class='font-bold'>Industry Outlook: </span>
-                                    <span>Understanding the market conditions and sector trends.</span>
-                                </div>
-                                <div>
-                                    <span class='font-bold'>IPO Valuation: </span>
-                                    <span>Ensuring the offering price is aligned with the company's valuation.</span>
-                                </div>
+                            <h2 class='text-xl font-bold'>Our Mission</h2>
+                            <div class='md:text-lg text-base font-normal leading-loose'>At <strong>GMPSHARE</strong>, our mission is simple: to empower investors by providing accurate, timely,
+                                and reliable information about IPOs and stock market trends. Our goal is to make your
+                                investment journey smoother by helping you understand market dynamics, track IPO
+                                performance, and decode the mysteries behind Grey Market Premium (GMP).
                             </div>
-                        </div>
 
-                        {/* about our company section */}
-                        <div class='flex flex-col gap-4 text-md md:text-left text-justify'>
-                            <h3 class='text-xl font-bold'>About GMPSHARE</h3>
+                            <hr />
 
-                            <div>GMPSHARE is dedicated to delivering the most reliable and trustworthy information to its audience. Our platform provides in-depth, accurate, and up-to-date reviews of numerous online stock brokers in India. At GMPSHARE, we empower clients to evaluate brokerage firms across various parameters such as brokerage fees, product and service offerings, trading platforms, NRI trading solutions, commodity trading options, and more. This comprehensive comparison enables users to make well-informed decisions and select the broker that best suits their needs.</div>
+                            <h2 class='text-xl font-bold'>What We Offer</h2>
+                            <div class='md:text-lg text-base font-normal leading-loose'>
+                                ● <strong>Real-Time IPO Data:</strong> Get up-to-date details about upcoming IPOs, open IPOs, and closed IPOs, including GMP and subscription status.
+                                <br />
+                                ● <strong>IPO Performance Analysis: </strong>Track the performance of IPOs in real-time, including
+                                positive listings, negative listings, and issue sizes.
+                                <br />
+                                ● <strong>Broker Comparisons: </strong>We provide comprehensive reviews and comparisons of over 30
+                                discount brokers and 20 full-service brokers, helping you choose the best platform for
+                                your trading needs.
+                                <br />
+                                ● <strong>In-Depth IPO Reviews: </strong>Dive deep into detailed IPO analyses, including financial
+                                reports, growth potential, and sector insights to guide your investment decisions.
+                                <br />
+                                ● <strong>Educational Resources: </strong>We offer expert insights on Kostak Rate, Subject to Sauda,
+                                and other important concepts in the IPO world to ensure you're fully informed before
+                                making any investment.
+                            </div>
 
-                            <div>Through our portal, users can easily discover <strong>the Top Online Brokers</strong>, <strong>Best Brokers for NRI Trading</strong>, <strong>Leading Brokers for Commodity Trading</strong>, <strong>Brokers with the Lowest Brokerage Charges</strong>, and much more. Currently, we feature detailed reviews of over 30 discount brokers and 20 full-service brokers, and our database continues to grow as we strive to enhance the user experience.</div>
+                            <hr />
 
-                            <div>Beyond broker reviews, GMPSHARE extends its service portfolio to include insights on the latest IPO reviews, Sovereign Gold Bond schemes, instant personal loan providers, and other valuable financial content. Our goal is to keep our readers informed and equipped to make confident financial decisions.</div>
+                            <h2 class='text-xl font-bold'>Why Choose GMPSHARE?</h2>
+                            <div class='md:text-lg text-base font-normal leading-loose'>
+                                <strong>1. Comprehensive IPO Information: </strong>We provide everything you need to know about
+                                IPOs, including GMP, subscription details, listing estimates, and company
+                                fundamentals. Whether you're new to IPO investing or a seasoned investor, our
+                                platform equips you with the knowledge to make smarter decisions.
+                                <br />
+                                <strong>2. Reliable Data: </strong>Our data is sourced from trusted experts and is constantly updated,
+                                ensuring you have the most current information to make well-informed choices.
+                                <br />
+                                <strong>3. Expert Insights: </strong>Our team of financial analysts and IPO experts brings years of
+                                experience, providing you with actionable insights and guidance to navigate the stock
+                                market and the grey market.
+                                <br />
+                                <strong>4. User-Friendly Interface: </strong>We believe in making complex financial data accessible. Our
+                                website is easy to navigate, making it simple for you to find the IPO information you're
+                                looking for.
+                                <br />
+                                <strong>5. Real-Time Updates: </strong>With live updates on IPO GMP trends and market sentiment, you'll
+                                always stay ahead of the curve, especially in the high-stakes world of IPO trading.
+                            </div>
+
+                            <hr />
+
+                            <h2 class='text-xl font-bold'>Our Services</h2>
+                            <div class='md:text-lg text-base font-normal leading-loose'>
+                                ● <strong>IPO GMP Analysis: </strong>Get the latest updates on the Grey Market Premium (GMP) for IPOs. Understand the investor sentiment before the stock hits the exchange and anticipate possible listing gains.
+                                <br />
+                                ● <strong>Stock Broker Reviews: </strong>We compare discount brokers, full-service brokers, and
+                                commodity trading platforms to help you choose the best stockbroker for your trading
+                                preferences.
+                                <br />
+                                ● <strong>IPO Alerts: </strong>Never miss an opportunity. We send alerts on upcoming IPOs, open IPOs,
+                                and closed IPOs, along with critical GMP changes.
+                                <br />
+                                ● <strong>Financial News: </strong>Stay informed with the latest market trends, sector analysis, and
+                                investment news relevant to IPO investors.
+                            </div>
+
+                            <hr />
+
+                            <h2 class='text-xl font-bold'>Our Expertise</h2>
+                            <div class='md:text-lg text-base font-normal leading-loose'>With over a decade of experience in the Indian stock market, GMPSHARE is a leading
+                                platform offering trustworthy information and insightful analysis. Our expertise spans across:
+                                <br />
+                                ● <strong>IPO market trends</strong>
+                                <br />
+                                ● <strong>Stock market performance</strong>
+                                <br />
+                                ● <strong>Grey Market trading</strong>
+                                <br />
+                                ● <strong>Financial analysis and forecasting</strong>
+                                <br />
+                                ● <strong>Broker comparisons and recommendations</strong>
+                                <br />
+                                Our mission is to make IPO investing easy, informative, and transparent for both beginner and
+                                experienced investors.
+                            </div>
+
+                            <hr />
+
+                            <h2 class='text-xl font-bold'>Stay Informed, Stay Ahead with GMPSHARE</h2>
+                            <div class='md:text-lg text-base font-normal leading-loose'>Investing in IPOs can be daunting, but with the right information, it becomes an opportunity for
+                                growth. At GMPSHARE, we strive to provide you with the tools and knowledge needed to
+                                navigate the complex world of IPOs and stock trading. By using real-time IPO data, GMP
+                                trends, and expert analysis, we help you make confident investment decisions and unlock the
+                                potential of the stock market.
+                            </div>
                         </div>
 
                     </div>

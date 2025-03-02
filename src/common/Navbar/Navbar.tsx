@@ -4,7 +4,7 @@ import logo from '../../assets/logo/gmp-share.svg';
 
 const Navbar: Component = () => {
   return (
-    <div class="fixed bg-white flex flex-col w-full h-auto py-4 shadow items-center justify-center">
+    <div class="fixed bg-white flex flex-col w-full h-auto py-4 shadow items-center justify-center uppercase font-medium text-[#1b1b1b]">
       <div class='w-11/12 h-full flex flex-row items-center justify-between'>
         <a href="/">
           <img src={logo} alt="gmpshare logo" class='w-28 h-auto' />
