@@ -12,7 +12,7 @@ export const Home: Component = () => {
 
                 <div class='w-11/12 h-full flex flex-col items-center justify-center overflow-hidden'>
 
-                    <div class='w-full h-auto flex flex-col items-center justify-center gap-3 mb-6'>
+                    <div class='w-full h-auto flex flex-col items-center justify-center gap-3 mb-2 mt-16'>
                         <h1 class='text-3xl font-bold'>Gmpshare: For latest GMP data, IPO details and insights.</h1>
                         <hr class='h-[0.5px]' />
                     </div>
